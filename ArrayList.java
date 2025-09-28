@@ -111,5 +111,10 @@ class Main{
         l3.add(2);
         l3.add(1);
         System.out.println("lastindexof="+l3.lastIndexOf(1));
+
+        ArrayList<String> fruits = new ArrayList<String>();
+        fruits.add("apple");
+        fruits.add("pineapple");
+        System.out.println(fruits);
     }
 }
